@@ -2,6 +2,7 @@
 
 # dependencies
 /node_modules
+/server/node_modules
 /.pnp
 .pnp.js
 
@@ -11,13 +12,45 @@
 # production
 /build
 
-# misc
-.DS_Store
+# environment variables and API keys
+.env
 .env.local
 .env.development.local
 .env.test.local
 .env.production.local
+*.env
+.env.*
 
+# uploaded files (may contain sensitive documents)
+/server/uploads/*
+!/server/uploads/.gitkeep
+
+# misc
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+lerna-debug.log*
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+
+# OS
+*.tmp
+*.temp
