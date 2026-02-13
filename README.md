@@ -1,4 +1,4 @@
-# AgentAI
+# PaperChat
 
 A powerful AI-powered chat application that combines Retrieval Augmented Generation (RAG) with web search capabilities. Upload PDF documents and ask questions to get intelligent answers based on your documents and real-time web information.
 
